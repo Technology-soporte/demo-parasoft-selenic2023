@@ -13,4 +13,10 @@
             <class name="Depositar"/>
         </classes>
     </test>
+
+    <test name="Prueba2" enabled="true">
+        <classes>
+            <class name="Depositar"/>
+        </classes>
+    </test>
 </suite>
