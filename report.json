@@ -1,0 +1,309 @@
+{
+  "sessionCreationTime" : "2024-06-24T10:51:50-0400",
+  "analyzerSettings" : { },
+  "scenarios" : [ {
+    "class" : "Depositar",
+    "tests" : [ {
+      "name" : "testDepositar",
+      "timeMetaData" : {
+        "startTime" : 1719240728519,
+        "duration" : 5090
+      },
+      "performanceStatistics" : {
+        "averageDuration" : 4658,
+        "runCount" : 136
+      },
+      "actions" : [ {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "id",
+            "value" : "username"
+          },
+          "resultElements" : [ {
+            "locator" : "id",
+            "term" : "username",
+            "xpath" : "/html/body/div[1]/div/div/div[2]/form/div[1]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "page.DigitalBankPage",
+            "fieldName" : "usernameText"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "id",
+              "term" : "username",
+              "xpath" : "/html/body/div[1]/div/div/div[2]/form/div[1]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "jsmith@demo.io",
+            "contextElement" : {
+              "locator" : "id",
+              "term" : "username",
+              "xpath" : "/html/body/div[1]/div/div/div[2]/form/div[1]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "password"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "password",
+            "xpath" : "/html/body/div[1]/div/div/div[2]/form/div[2]/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "page.DigitalBankPage",
+            "fieldName" : "password"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "password",
+              "xpath" : "/html/body/div[1]/div/div/div[2]/form/div[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "Demo123!",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "password",
+              "xpath" : "/html/body/div[1]/div/div/div[2]/form/div[2]/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "xpath",
+            "value" : "/descendant::button[normalize-space(.)='Sign in']"
+          },
+          "resultElements" : [ {
+            "locator" : "xpath",
+            "term" : "/descendant::button[normalize-space(.)='Sign in']",
+            "xpath" : "/html/body/div[1]/div/div/div[2]/form/button"
+          } ],
+          "codeMetaData" : {
+            "className" : "page.DigitalBankPage",
+            "fieldName" : "signInSubmit"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clickElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "xpath",
+              "term" : "/descendant::button[normalize-space(.)='Sign in']",
+              "xpath" : "/html/body/div[1]/div/div/div[2]/form/button"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "link text",
+            "value" : "Deposit"
+          },
+          "resultElements" : [ {
+            "locator" : "link text",
+            "term" : "Deposit",
+            "xpath" : "/html/body/aside/nav/div[2]/ul/li[5]/a"
+          } ],
+          "codeMetaData" : {
+            "className" : "page.HomePage",
+            "fieldName" : "depositLink"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clickElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "link text",
+              "term" : "Deposit",
+              "xpath" : "/html/body/aside/nav/div[2]/ul/li[5]/a"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "id"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "id",
+            "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[1]/div[2]/div/div/select"
+          } ],
+          "codeMetaData" : {
+            "className" : "page.DepositPage",
+            "fieldName" : "idSelectOne"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findChildElements",
+          "parameters" : {
+            "using" : "tag name",
+            "value" : "option"
+          },
+          "resultElements" : [ {
+            "locator" : "tag name",
+            "term" : "option",
+            "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[1]/div[2]/div/div/select/option[1]"
+          }, {
+            "locator" : "tag name",
+            "term" : "option",
+            "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[1]/div[2]/div/div/select/option[2]"
+          }, {
+            "locator" : "tag name",
+            "term" : "option",
+            "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[1]/div[2]/div/div/select/option[3]"
+          }, {
+            "locator" : "tag name",
+            "term" : "option",
+            "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[1]/div[2]/div/div/select/option[4]"
+          } ]
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "id"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "id",
+            "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[1]/div[2]/div/div/select"
+          } ],
+          "codeMetaData" : {
+            "className" : "page.DepositPage",
+            "fieldName" : "idSelectOne"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findChildElements",
+          "parameters" : {
+            "using" : "xpath",
+            "value" : ".//option[normalize-space(.) = \"Joint Checking (Standard Checking)\"]"
+          },
+          "resultElements" : [ {
+            "locator" : "xpath",
+            "term" : ".//option[normalize-space(.) = \"Joint Checking (Standard Checking)\"]",
+            "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[1]/div[2]/div/div/select/option[2]"
+          } ]
+        }
+      }, {
+        "metadata" : {
+          "command" : "clickElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "xpath",
+              "term" : ".//option[normalize-space(.) = \"Joint Checking (Standard Checking)\"]",
+              "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[1]/div[2]/div/div/select/option[2]"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "name",
+            "value" : "amount"
+          },
+          "resultElements" : [ {
+            "locator" : "name",
+            "term" : "amount",
+            "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[1]/div[3]/div/input"
+          } ],
+          "codeMetaData" : {
+            "className" : "page.DepositPage",
+            "fieldName" : "amountText"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clearElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "amount",
+              "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[1]/div[3]/div/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "sendKeysToElement",
+          "parameters" : {
+            "value" : "10",
+            "contextElement" : {
+              "locator" : "name",
+              "term" : "amount",
+              "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[1]/div[3]/div/input"
+            }
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "findElement",
+          "parameters" : {
+            "using" : "xpath",
+            "value" : "/descendant::button[normalize-space(.)='Submit']"
+          },
+          "resultElements" : [ {
+            "locator" : "xpath",
+            "term" : "/descendant::button[normalize-space(.)='Submit']",
+            "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[2]/button[1]"
+          } ],
+          "codeMetaData" : {
+            "className" : "page.DepositPage",
+            "fieldName" : "submit"
+          }
+        }
+      }, {
+        "metadata" : {
+          "command" : "clickElement",
+          "parameters" : {
+            "contextElement" : {
+              "locator" : "xpath",
+              "term" : "/descendant::button[normalize-space(.)='Submit']",
+              "xpath" : "/html/body/div[1]/div[2]/div/div/div/div/form/div[2]/button[1]"
+            }
+          }
+        }
+      } ],
+      "result" : {
+        "status" : "passed"
+      }
+    } ]
+  } ]
+}

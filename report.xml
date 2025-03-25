@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="selenic-2024-06-24" climode="true" endTime="2024-06-24T10:53:38-04:00" execEnv="win32_x86_64" hasViols="false" id="1718597723915" lang="en_US" machine="EC2AMAZ-15BIB25" project="selenic" tag="selenic-win32_x86_64" time="2024-06-24T10:53:35-04:00" toolDispName="Selenic" toolId="selenic" toolName="Selenic" toolVer="2024.1.1.202403011155" user="Administrator">
+   <TestConfig machine="EC2AMAZ-15BIB25" name="Selenic" pseudoUrl="builtin://Selenic" user="Administrator"/>
+   <Authors/>
+   <Analyzers>
+      <Analyzer id="com.parasoft.selenic.analyzers.SelenicAnalyzer" name="Parasoft Selenic Analyzer for Selenium" ver="2024.1.1.202403011155"/>
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1"/>
+   </VersionInfos>
+   <Scope>
+      <Repositories/>
+      <Locations>
+         <Loc hash="49709747" locRef="1" uri="file:/C:/Users/Administrator/Documents/Demo-Selenic/Demo-Selenic/src/main/java/Depositar.java"/>
+      </Locations>
+   </Scope>
+   <Exec ownerId="com.parasoft.xtest.checkers.api.execution" time="0:00:00">
+      
+      
+      <History>
+         <Graph id="tc">
+            <Categories>
+               <Category color="gray" name="Total" pos="0"/>
+               <Category color="green" name="Passed" pos="1"/>
+               <Category color="red" name="Failed" pos="2"/>
+               <Category color="yellow" name="Incomplete" pos="3"/>
+            </Categories>
+            <Total secSer="2" title="" xTitle="Date" yTitle="Total / Passed" yTitle2="Failed / Incomplete">
+               <X>06-24-24,</X>
+               <Y>1,1,0,0,</Y>
+               <Delta>1,1,0,0,</Delta>
+            </Total>
+         </Graph>
+      </History>
+   
+      <Categories/>
+      <Projects>
+         <Project err="0" fail="0" id="#unknown#" name="unknown" pass="1" total="1"/>
+      </Projects>
+      
+  <APICoverage/>
+
+      
+  <TrafficData/>
+      
+  <EnvData/>
+      <FuncAPISecurity pentest="false">
+         
+  <Categories/>
+         
+  <Attacks/>
+      </FuncAPISecurity>
+      
+  <ExecViols/>
+
+      
+   <ExecutedTestsDetails type="UT">
+      <Total total="1" pass="1" name="Passed / Total" time="0:00:05.090">
+         <Project total="1" pass="1" name="unknown" time="0:00:05.090" id="#unknown#">
+            <TestSuite root="true" name="Depositar" id="Depositar" total="1" pass="1" time="0:00:05.090">
+               <Test ln="0" locRef="1" name="testDepositar" startTime="1719240728519" id="Depositar#testDepositar" status="pass" total="1" pass="1" time="0:00:05.090"/>
+            </TestSuite>
+         </Project>
+      </Total>
+   </ExecutedTestsDetails>
+
+      
+  <FuncTestDetails/>
+   </Exec>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

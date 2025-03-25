@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Test-Ejemplos]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="job_name" value="Test-Ejemplos"/>
+  <parameter name="url_base" value="http://base.laboratorytechnologylatam.com:9080/bank/login"/>
+  <parameter name="smoketest" value="false"/>
+  <parameter name="soatest_server" value="172.31.8.168"/>
+  <test thread-count="2" name="Prueba(failed)" verbose="0">
+    <classes>
+      <class name="Depositar">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="testDepositar"/>
+        </methods>
+      </class> <!-- Depositar -->
+    </classes>
+  </test> <!-- Prueba(failed) -->
+</suite> <!-- Failed suite [Test-Ejemplos] -->

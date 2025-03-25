@@ -1,0 +1,14 @@
+utils\Servers.class
+utils\Constants.class
+utils\JSONManager.class
+Depositar.class
+page\DigitalBankPage.class
+base\BaseRecorder.class
+utils\ConfigReader.class
+utils\RESTClient.class
+utils\Regex.class
+utils\XMLManager.class
+recorder\ParasoftRecorder.class
+page\DepositPage.class
+page\HomePage.class
+utils\Jobs.class

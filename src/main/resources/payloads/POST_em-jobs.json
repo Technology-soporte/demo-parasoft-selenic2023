@@ -1,0 +1,17 @@
+{
+  "name" : "",
+  "limitCount" : null,
+  "limitDays" : null,
+  "testConfiguration" : "",
+  "fork" : false,
+  "testScenarioInstances" : [
+  ],
+  "context" : {
+    "componentInstanceIds" : [
+    ]
+  },
+  "owner" : "admin",
+  "publish" : false,
+  "localSettings" : [
+  ]
+}
